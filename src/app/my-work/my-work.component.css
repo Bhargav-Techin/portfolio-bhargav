@@ -1,0 +1,132 @@
+.project-image {
+  width: 27.125rem;
+  height: 15.25rem;
+  border-radius: 2.125rem;
+  flex-shrink: 1;
+}
+.project-name {
+  align-self: stretch;
+  color: #fff;
+  text-align: center;
+  font-family: Quattrocento;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.project-container {
+  display: flex;
+  /* flex-wrap: wrap; */
+  height: 22.375rem;
+  align-items: flex-start;
+  gap: 5rem;
+  padding: 1%;
+  margin: 0% 5%;
+  flex: 1 1 0;
+  background-color: #3030305a;
+  box-shadow: 0px 0px 5px rgba(68, 68, 68, 0.275);
+}
+
+.project-container a{
+  text-decoration: none;
+}
+
+.project-img-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project-img-container p{
+  /* text-decoration: none !important; */
+  color: #fff;
+}
+
+.project-description {
+  /* align-self: stretch; */
+  color: #fff;
+  text-align: center;
+  font-family: Quattrocento;
+  font-size: 1.4rem;
+  font-style: normal;
+  line-height: normal;
+}
+.project-description-container {
+  display: flex;
+  padding: 0.625rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1 0 0;
+  /* align-self: stretch; */
+}
+.project-icon-container {
+  display: flex;
+  gap: 1rem;
+}
+.project-icons img {
+  width: 20px;
+  height: 20px;
+}
+
+@media (1100px>width > 600px){
+
+    .project-container {
+        display: flex;
+        /* flex-wrap: wrap; */
+        height: auto;
+        align-items: center;
+        gap: 2rem;
+       flex-direction: column;
+        margin: 0% 5% 5% 5%;
+        flex: 1 1 0;
+        box-shadow: 0px 0px 15px rgba(68, 68, 68, 0.275);
+      }
+
+}
+
+@media (max-width: 600px){
+
+    .project-container {
+        display: flex;
+        /* flex-wrap: wrap; */
+        height: auto;
+        align-items: center;
+        gap: 2rem;
+       flex-direction: column;
+        margin: 0% 5% 5% 5%;
+        flex: 1 1 0;
+        box-shadow: 0px 0px 10px rgba(68, 68, 68, 0.275);
+      }
+
+      .project-image {
+        width: 15.125rem;
+        height: 8.25rem;
+        border-radius: 2.125rem;
+        flex-shrink: 1;
+      }
+      .project-img-container p{
+        /* text-decoration: none !important; */
+        font-size: 10px;
+      }
+      .project-description {
+        /* align-self: stretch; */
+        color: #fff;
+        text-align: center;
+        font-family: Quattrocento;
+        font-size: 0.8rem;
+        font-style: normal;
+        line-height: normal;
+      }
+      .project-name {
+        align-self: stretch;
+        color: #fff;
+        text-align: center;
+        font-family: Quattrocento;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+}

@@ -1,0 +1,7 @@
+.cvContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+    height: 500px; /* Adjust as needed */
+  }

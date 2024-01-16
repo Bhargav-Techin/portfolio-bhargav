@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+html{
+  overflow-x: hidden;
+}
+
+body{
+    background: #141414;
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    min-height: 100vh;
+    padding-top: 8rem;
+
+}
+.button-bg {
+    display: flex;
+    width: 16.4375rem;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 3.75rem;
+    border: 1px solid #fff;
+    background: linear-gradient(
+      95deg,
+      rgba(255, 0, 107, 0.61) -1.68%,
+      rgba(0, 117, 255, 0) 116.11%
+    );
+  }
+  .button-text {
+    color: #fff;
+    font-family: Quattrocento;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+  }
+
+  
+
+
+  
+

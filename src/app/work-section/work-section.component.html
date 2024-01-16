@@ -1,0 +1,23 @@
+<div class="project-text">PROJECTS</div>
+<div class="project-page-container">
+  <div class="all-projects-container">
+    <div class="project-container" *ngFor="let project of projects">
+      <img [src]="project.image" [alt]="project.name" class="project-image" />
+      <h2 class="project-name">{{ project.name }}</h2>
+    </div>
+  </div>
+</div>
+<button class="button-bg" routerLink="my-work">
+  <div class="button-text">Go To My Work</div>
+</button>
+<div class="skill-text">SKILLS</div>
+<div class="all-skills-container">
+  <div class="skill-container" *ngFor="let skill of skills">
+    <div class="skill-topic-name">{{ skill.topic }}</div>
+    <div class="skills-name-container">
+      <div class="skill-name-frame" *ngFor="let name of skill.names">
+        <div class="skill-name">{{ name }}</div>
+      </div>
+    </div>
+  </div>
+</div>

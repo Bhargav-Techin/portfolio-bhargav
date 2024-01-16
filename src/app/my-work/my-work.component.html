@@ -1,0 +1,19 @@
+<div class="project-page-container">
+  <div class="all-projects-container">
+    <div class="project-container" *ngFor="let project of projects">
+      <a [href]="project.gitrepo"><div class="project-img-container">
+        <img [src]="project.image" [alt]="project.name" class="project-image" />
+        <p>Click to see GitRepo</p>
+      </div></a>
+      <div class="project-description-container">
+        <h2 class="project-name">{{ project.name }}</h2>
+        <div class="project-icon-container">
+          <div *ngFor="let icon of project.icons" class="project-icons">
+            <img [src]="icon" alt="" />
+          </div>
+        </div>
+        <div class="project-description">{{ project.description }}</div>
+      </div>
+    </div>
+  </div>
+</div>
