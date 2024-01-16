@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Quattrocento';
+  src: url('assets/fonts/Quattrocento-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Magneto';
+  src: url('assets/MAGNETOB.TTF') format('truetype');
+}
+
+
 .nav-bar-container {
   display: flex;
   gap: 1rem;

@@ -1,3 +1,9 @@
+
+@font-face {
+  font-family: 'Quattrocento';
+  src: url('assets/fonts/Quattrocento-Regular.ttf') format('truetype');
+}
+
 .project-image {
   width: 27.125rem;
   height: 15.25rem;
