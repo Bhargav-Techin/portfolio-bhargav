@@ -1,9 +1,4 @@
 
-@font-face {
-  font-family: 'Quattrocento';
-  src: url('assets/Quattrocento-Regular.ttf') format('truetype');
-}
-
 .project-image {
   width: 27.125rem;
   height: 15.25rem;
@@ -14,7 +9,7 @@
   align-self: stretch;
   color: #fff;
   text-align: center;
-  font-family: Quattrocento;
+  font-family: 'Quattrocento' , sans-serif;
   font-size: 2.25rem;
   font-style: normal;
   font-weight: 700;
@@ -52,7 +47,7 @@
   /* align-self: stretch; */
   color: #fff;
   text-align: center;
-  font-family: Quattrocento;
+  font-family: 'Quattrocento' , sans-serif;
   font-size: 1.4rem;
   font-style: normal;
   line-height: normal;
@@ -120,7 +115,7 @@
         /* align-self: stretch; */
         color: #fff;
         text-align: center;
-        font-family: Quattrocento;
+        font-family: 'Quattrocento' , sans-serif;
         font-size: 0.8rem;
         font-style: normal;
         line-height: normal;
@@ -129,7 +124,7 @@
         align-self: stretch;
         color: #fff;
         text-align: center;
-        font-family: Quattrocento;
+        font-family: 'Quattrocento' , sans-serif;
         font-size: 1.5rem;
         font-style: normal;
         font-weight: 700;

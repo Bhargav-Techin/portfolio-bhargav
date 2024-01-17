@@ -5,3 +5,13 @@
     overflow: scroll;
     height: 500px; /* Adjust as needed */
   }
+
+  @media (max-width: 800px) {
+    .cvContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: scroll;
+      height: 800px; /* Adjust as needed */
+    }
+  }

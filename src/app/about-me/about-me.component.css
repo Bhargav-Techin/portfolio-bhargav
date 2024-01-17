@@ -1,15 +1,11 @@
-@font-face {
-    font-family: 'Quattrocento';
-    src: url('assets/Quattrocento-Regular.ttf') format('truetype');
-  }
-  
+
 .about-topic-container{
     margin-bottom: 5%;
 }
 .small-about{
     margin: 5%;
     color: #fff;
-    font-family: Quattrocento;
+    font-family: 'Quattrocento' , sans-serif;
     font-size: 1.5rem;
     font-style: normal;
     line-height: normal;
@@ -23,7 +19,7 @@
 .topic-heading{
     margin: 5%;
     color: #fff;
-    font-family: Quattrocento;
+    font-family: 'Quattrocento' , sans-serif;
     font-size: 2.5rem;
     font-style: normal;
     font-weight: 400;
@@ -32,7 +28,7 @@
 .topic-details{
     margin-top: 1%;
     color: #fff;
-    font-family: Quattrocento;
+    font-family: 'Quattrocento' , sans-serif;
     font-size: 1.5rem;
     font-style: normal;
     line-height: normal;
@@ -41,7 +37,7 @@
     margin: 0;
     padding: 0;
     color: #fff;
-    font-family: Quattrocento;
+    font-family: 'Quattrocento' , sans-serif;
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 700;
@@ -50,7 +46,7 @@
 .sub-topic-heading{
     margin: 2% 10%;
     color: #fff;
-    font-family: Quattrocento;
+    font-family: 'Quattrocento' , sans-serif;
     font-size: 2rem;
     font-style: normal;
     font-weight: 400;

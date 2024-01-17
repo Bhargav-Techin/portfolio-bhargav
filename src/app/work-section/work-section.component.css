@@ -1,11 +1,3 @@
-@font-face {
-  font-family: 'Poppins';
-  src: url('assets/Poppins-Regular.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Quattrocento';
-  src: url('assets/Quattrocento-Regular.ttf') format('truetype');
-}
 
 
 .project-page-container {
@@ -26,7 +18,7 @@
   align-self: self-start;
   margin: 15% auto 0% 10%;
   color: #fff;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 3rem;
   font-style: normal;
   font-weight: 600;
@@ -49,7 +41,7 @@
   align-self: stretch;
   color: #fff;
   text-align: center;
-  font-family: Quattrocento;
+  font-family: 'Quattrocento' , sans-serif;
   font-size: 2.25rem;
   font-style: normal;
   font-weight: 700;
@@ -64,7 +56,7 @@
 .skill-text {
   color: #fff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 3rem;
   font-style: normal;
   font-weight: 600;
@@ -93,7 +85,7 @@
 }
 .skill-topic-name {
   color: #fff;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 2rem;
   font-style: normal;
   font-weight: 600;
@@ -119,7 +111,7 @@
 }
 .skill-name {
   color: #fff;
-  font-family: Quattrocento;
+  font-family: 'Quattrocento' , sans-serif;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
@@ -150,7 +142,7 @@
 
   .project-text {
     color: #fff;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-style: normal;
     font-weight: 600;

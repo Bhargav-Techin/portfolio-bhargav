@@ -1,12 +1,3 @@
-@font-face {
-  font-family: 'Quattrocento';
-  src: url('assets/Quattrocento-Regular.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Magneto';
-  src: url('assets/MAGNETOB.TTF') format('truetype');
-}
-
 
 .nav-bar-container {
   display: flex;
@@ -30,7 +21,7 @@
 .bpd-text {
   align-self: stretch;
   color: #fff;
-  font-family: Magneto;
+  font-family: 'Lugrasimo' ,sans-serif;
   font-size: 2.5rem;
   font-style: normal;
   font-weight: 700;
@@ -43,7 +34,7 @@
 }
 .frame-2-text {
   color: #fff;
-  font-family: Quattrocento;
+  font-family: 'Quattrocento' , sans-serif;
   font-size: 1.2rem;
   font-style: normal;
   font-weight: 400;

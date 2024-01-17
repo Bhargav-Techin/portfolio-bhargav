@@ -1,8 +1,4 @@
-@font-face {
-    font-family: 'Quattrocento';
-    src: url('assets/Quattrocento-Regular.ttf') format('truetype');
-  }
-  
+
 *{
     display: flex;
     flex-wrap: wrap;
@@ -21,7 +17,7 @@ background: #212121;
 
 .socials-contacts-container a{
     color: #fff;
-  font-family: Quattrocento;
+  font-family: 'Quattrocento' , sans-serif;
   font-size: 1rem;
   font-style: normal;
   line-height: normal;
@@ -55,7 +51,7 @@ background: #212121;
 
     .socials-contacts-container a{
         color: #fff;
-      font-family: Quattrocento;
+      font-family: 'Quattrocento' , sans-serif;
       font-size: 0.5rem;
       font-style: normal;
       line-height: normal;
