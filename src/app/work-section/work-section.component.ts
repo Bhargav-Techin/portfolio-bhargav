@@ -28,11 +28,13 @@ export class WorkSectionComponent {
   skills = [
     {
       topic: 'FRONTEND',
-      names: ['HTML', 'JAVASCRIPT', 'CSS', 'TYPESCRIPT', 'ANGULAR', 'FIGMA']
+      names: ['HTML', 'JAVASCRIPT', 'CSS', 'TYPESCRIPT', 'ANGULAR', 'FIGMA'],
+      completionPercentage :[85,80,85,80,85,80]
     },
     {
       topic: 'OTHERS',
-      names: ['C/C++', 'GIT', 'DSA', 'PYTHON']
+      names: ['C/C++', 'GIT', 'DSA', 'PYTHON'],
+      completionPercentage : [90,85,85,60]
     }
   ];
   

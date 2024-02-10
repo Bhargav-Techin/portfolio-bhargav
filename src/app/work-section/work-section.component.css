@@ -99,7 +99,9 @@
   align-self: stretch;
   flex-wrap: wrap;
 }
+
 .skill-name-frame {
+  position: relative;
   display: flex;
   padding: 0.75rem 1.6875rem;
   justify-content: center;
@@ -109,6 +111,16 @@
   border: 1px solid #00d254;
   background: rgba(116, 116, 116, 0.21);
 }
+.skill-completed-bar{
+  background: #00ff6a;
+  height: 100%;
+  /* width: 100%; */
+  border-radius: 6.25rem;
+  position: absolute;
+  left: 0%;
+  opacity: 30%;
+
+}
 .skill-name {
   color: #fff;
   font-family: 'Quattrocento' , sans-serif;
@@ -116,6 +128,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  z-index: 1;
 }
 
 @media (max-width: 600px) {

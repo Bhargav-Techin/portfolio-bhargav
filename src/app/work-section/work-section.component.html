@@ -12,12 +12,20 @@
 </button>
 <div class="skill-text">SKILLS</div>
 <div class="all-skills-container">
-  <div class="skill-container" *ngFor="let skill of skills">
+  <div class="skill-container" *ngFor="let skill of skills; let i = index">
     <div class="skill-topic-name">{{ skill.topic }}</div>
     <div class="skills-name-container">
-      <div class="skill-name-frame" *ngFor="let name of skill.names">
+      <div class="skill-name-frame" *ngFor="let name of skill.names; let j = index">
         <div class="skill-name">{{ name }}</div>
+        <div class="skill-completed-bar" 
+           [ngStyle]="{
+             'width': skill.completionPercentage[j] + '%', 
+             'border-top-right-radius': skill.completionPercentage[j] < 85 ? '0' : 'default', 
+             'border-bottom-right-radius': skill.completionPercentage[j] < 85 ? '0' : 'default'
+           }">
+      </div>
       </div>
     </div>
   </div>
+  
 </div>
