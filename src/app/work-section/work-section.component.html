@@ -17,13 +17,7 @@
     <div class="skills-name-container">
       <div class="skill-name-frame" *ngFor="let name of skill.names; let j = index">
         <div class="skill-name">{{ name }}</div>
-        <div class="skill-completed-bar" 
-           [ngStyle]="{
-             'width': skill.completionPercentage[j] + '%', 
-             'border-top-right-radius': skill.completionPercentage[j] < 85 ? '0' : 'default', 
-             'border-bottom-right-radius': skill.completionPercentage[j] < 85 ? '0' : 'default'
-           }">
-      </div>
+        <div class="skill-completed-bar" [ngStyle]="{'width': skill.completionPercentage[j] + '%'}"></div>
       </div>
     </div>
   </div>
