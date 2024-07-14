@@ -11,16 +11,16 @@ export class WorkSectionComponent {
 
   projects = [
     {
-      image: 'assets/weather report.png',
-      name: 'Weather Report App'
-    },
-    {
       image: 'assets/Ecomm.png',
       name: 'E-commerce App'
     },
     {
-      image: 'assets/calculator.png',
-      name: 'Calculator App'
+      image: 'assets/type-retro.png',
+      name: 'Typing Test App'
+    },
+    {
+      image: 'assets/weather report.png',
+      name: 'Weather Report App'
     },
     // add more projects as needed
   ];
@@ -33,8 +33,8 @@ export class WorkSectionComponent {
     },
     {
       topic: 'OTHERS',
-      names: ['C/C++', 'GIT', 'DSA', 'PYTHON'],
-      completionPercentage : [90,85,85,60]
+      names: ['C/C++', 'JAVA',  'PYTHON', 'GIT', 'DSA'],
+      completionPercentage : [90,90,70,85,85]
     }
   ];
   
